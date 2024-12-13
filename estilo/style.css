@@ -1,0 +1,134 @@
+
+.intro {
+  color: rgb(9, 9, 9);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  padding: 5px;
+}
+
+@keyframes flash {
+
+  0%,
+  100% {
+    color: #0c233d;
+  }
+
+  50% {
+    color: #bbc250;
+  }
+}
+
+h1 {
+  animation: flash 1s infinite;
+  font-size: 55px;
+  text-align: center;
+  font-family:  "Jaro", sans-serif;
+}
+
+#carouselExampleIndicators {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@keyframes flash1 {
+  100% {
+    color: #0c233d;
+  }
+
+  50% {
+    color: #bbc250;
+  }
+}
+
+.carrito {
+  animation: flash1 1s infinite;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Jaro", sans-serif;
+
+}
+
+.imagenes {
+  width: 30%;
+  align-items: first baseline;
+}
+
+#container {
+  align-items: center;
+  color:#1a4778;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+input {
+  color: rgb(12, 12, 12);
+  width: 20px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fondo-caja {
+  width: 70px;
+}
+
+p {
+  font-family: "Jaro", sans-serif;
+}
+
+button {
+  background-color: #bbc250;
+  color:#0c233d;
+  
+}
+
+.finalizarCompra {
+  margin-top: 100px;
+  font-size: 20px;
+  background-color:#0c233d;
+  color:#eaead2;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.tamanioCant {
+  width: 130px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta {
+  border: solid #1a4778 3px;
+  border-radius: 5px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tarjeta:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 0.3s ease;
+}
+#totalText{
+  color: rgb(13, 13, 12);
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.btn1{
+  margin-top:10px;
+  border-radius: 5px;
+}
